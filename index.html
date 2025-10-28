@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario bross</title>
+</head>
+
+<body>
+    <div onclick="esconderForm()" class="mascara-formulario"></div>
+    <div>
+        <div class="header">
+            <img src="img/icon.png" alt="icon-mario">
+            <a>home</a>
+            <a>Fale Conosco</a>
+            <a>Nossos Serviços</a>
+        </div>
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img class="logo-mario" src="img/logo.png" alt="mario-logo">
+            <p class="texto"> Encanadores Mario & Luigi - Resolvemos seus problemas com Estilo!</p>
+            <p class="texto">Você se encontra em uma situação de emergência com encanamento? Vazamantos inesperados,
+                canos entupidos
+                ou
+                torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia! Apresentamos
+                a
+                vocês os encanadores mais famosos do Reino dos Cogumelos, Mario e Luigi!.</p>
+
+            <button onclick="cliqueiNoBotao()" class="botao"> Entre em contato </button>
+        </div>
+        <div>
+            <img class="mario-luigi" src="img/mario.png" alt="mario e luigi">
+        </div>
+
+    </div>
+    <div class="caixa-video">
+        <video src="img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="https:/wa.me/5531972110182"><img class="botao-whapp" src="img/icon-WhatsApp.png" alt="icon-WhatsApp"></a>
+
+    <form class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/EUor1k55aOK" method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite seu  problemas aqui" name="area"></textarea>
+            <button type="submit" class="botao">Pedir orçamento</button>
+    </form>
+
+</body>
+<script src="script.js"></script>
+
+</html>
